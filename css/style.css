@@ -917,6 +917,12 @@ h4 {
   color: #161A4E;
 }
 
+.services__item-text {
+  -webkit-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+
 .services .spollers__title {
   padding: 20px 0 20px;
   border: none;
@@ -2265,6 +2271,10 @@ anim-upwards1
 
   .footer-bottom a:hover {
     text-decoration: underline;
+  }
+
+  .services__item-text:hover {
+    margin-left: 10px;
   }
 
   .services .spollers__title span:hover {

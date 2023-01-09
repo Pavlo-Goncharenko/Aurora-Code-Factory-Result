@@ -503,10 +503,13 @@ h4 {
 /* ========== header ========== */
 
 .header {
-  background-color: rgba(22, 26, 78, 0.0705882353);
+  background-color: rgba(22, 26, 78, 0);
   position: fixed;
   width: 100%;
   z-index: 20;
+  -webkit-transition: all 0.3s linear 0s;
+  -o-transition: all 0.3s linear 0s;
+  transition: all 0.3s linear 0s;
 }
 
 .header__logo {
@@ -1494,7 +1497,7 @@ h4 {
 
 .loc-3 {
   position: absolute;
-  top: 59%;
+  top: 58.8%;
   left: 8.5%;
   height: 1px;
   width: 10px;
@@ -1551,41 +1554,29 @@ h4 {
 
 @-webkit-keyframes col-1 {
   0% {
-    -webkit-transform: scaleY(1);
-            transform: scaleY(1);
-    bottom: 0;
+    height: 73px;
   }
 
   44% {
-    -webkit-transform: scaleY(1.1);
-            transform: scaleY(1.1);
-    bottom: 3px;
+    height: 83px;
   }
 
   100% {
-    -webkit-transform: scaleY(1);
-            transform: scaleY(1);
-    bottom: 0;
+    height: 73px;
   }
 }
 
 @keyframes col-1 {
   0% {
-    -webkit-transform: scaleY(1);
-            transform: scaleY(1);
-    bottom: 0;
+    height: 73px;
   }
 
   44% {
-    -webkit-transform: scaleY(1.1);
-            transform: scaleY(1.1);
-    bottom: 3px;
+    height: 83px;
   }
 
   100% {
-    -webkit-transform: scaleY(1);
-            transform: scaleY(1);
-    bottom: 0;
+    height: 73px;
   }
 }
 
@@ -1607,41 +1598,29 @@ h4 {
 
 @-webkit-keyframes col-2 {
   0% {
-    -webkit-transform: scaleY(1);
-            transform: scaleY(1);
-    bottom: 0;
+    height: 97px;
   }
 
   54% {
-    -webkit-transform: scaleY(1.1);
-            transform: scaleY(1.1);
-    bottom: 4px;
+    height: 110px;
   }
 
   100% {
-    -webkit-transform: scaleY(1);
-            transform: scaleY(1);
-    bottom: 0;
+    height: 97px;
   }
 }
 
 @keyframes col-2 {
   0% {
-    -webkit-transform: scaleY(1);
-            transform: scaleY(1);
-    bottom: 0;
+    height: 97px;
   }
 
   54% {
-    -webkit-transform: scaleY(1.1);
-            transform: scaleY(1.1);
-    bottom: 4px;
+    height: 110px;
   }
 
   100% {
-    -webkit-transform: scaleY(1);
-            transform: scaleY(1);
-    bottom: 0;
+    height: 97px;
   }
 }
 
@@ -1663,41 +1642,29 @@ h4 {
 
 @-webkit-keyframes col-3 {
   0% {
-    -webkit-transform: scaleY(1);
-            transform: scaleY(1);
-    bottom: 0;
+    height: 58px;
   }
 
   34% {
-    -webkit-transform: scaleY(1.1);
-            transform: scaleY(1.1);
-    bottom: 3px;
+    height: 68px;
   }
 
   100% {
-    -webkit-transform: scaleY(1);
-            transform: scaleY(1);
-    bottom: 0;
+    height: 58px;
   }
 }
 
 @keyframes col-3 {
   0% {
-    -webkit-transform: scaleY(1);
-            transform: scaleY(1);
-    bottom: 0;
+    height: 58px;
   }
 
   34% {
-    -webkit-transform: scaleY(1.1);
-            transform: scaleY(1.1);
-    bottom: 3px;
+    height: 68px;
   }
 
   100% {
-    -webkit-transform: scaleY(1);
-            transform: scaleY(1);
-    bottom: 0;
+    height: 58px;
   }
 }
 
@@ -1719,41 +1686,29 @@ h4 {
 
 @-webkit-keyframes col-4 {
   0% {
-    -webkit-transform: scaleY(1);
-            transform: scaleY(1);
-    bottom: 0;
+    height: 73px;
   }
 
   57% {
-    -webkit-transform: scaleY(1.08);
-            transform: scaleY(1.08);
-    bottom: 3px;
+    height: 63px;
   }
 
   100% {
-    -webkit-transform: scaleY(1);
-            transform: scaleY(1);
-    bottom: 0;
+    height: 73px;
   }
 }
 
 @keyframes col-4 {
   0% {
-    -webkit-transform: scaleY(1);
-            transform: scaleY(1);
-    bottom: 0;
+    height: 73px;
   }
 
   57% {
-    -webkit-transform: scaleY(1.08);
-            transform: scaleY(1.08);
-    bottom: 3px;
+    height: 63px;
   }
 
   100% {
-    -webkit-transform: scaleY(1);
-            transform: scaleY(1);
-    bottom: 0;
+    height: 73px;
   }
 }
 
@@ -1775,41 +1730,29 @@ h4 {
 
 @-webkit-keyframes col-5 {
   0% {
-    -webkit-transform: scaleY(1);
-            transform: scaleY(1);
-    bottom: 0;
+    height: 97px;
   }
 
   64% {
-    -webkit-transform: scaleY(1.08);
-            transform: scaleY(1.08);
-    bottom: 3px;
+    height: 88px;
   }
 
   100% {
-    -webkit-transform: scaleY(1);
-            transform: scaleY(1);
-    bottom: 0;
+    height: 97px;
   }
 }
 
 @keyframes col-5 {
   0% {
-    -webkit-transform: scaleY(1);
-            transform: scaleY(1);
-    bottom: 0;
+    height: 97px;
   }
 
   64% {
-    -webkit-transform: scaleY(1.08);
-            transform: scaleY(1.08);
-    bottom: 3px;
+    height: 88px;
   }
 
   100% {
-    -webkit-transform: scaleY(1);
-            transform: scaleY(1);
-    bottom: 0;
+    height: 97px;
   }
 }
 
@@ -1831,41 +1774,29 @@ h4 {
 
 @-webkit-keyframes col-6 {
   0% {
-    -webkit-transform: scaleY(1);
-            transform: scaleY(1);
-    bottom: 0;
+    height: 58px;
   }
 
   48% {
-    -webkit-transform: scaleY(1.08);
-            transform: scaleY(1.08);
-    bottom: 3px;
+    height: 64px;
   }
 
   100% {
-    -webkit-transform: scaleY(1);
-            transform: scaleY(1);
-    bottom: 0;
+    height: 58px;
   }
 }
 
 @keyframes col-6 {
   0% {
-    -webkit-transform: scaleY(1);
-            transform: scaleY(1);
-    bottom: 0;
+    height: 58px;
   }
 
   48% {
-    -webkit-transform: scaleY(1.08);
-            transform: scaleY(1.08);
-    bottom: 3px;
+    height: 64px;
   }
 
   100% {
-    -webkit-transform: scaleY(1);
-            transform: scaleY(1);
-    bottom: 0;
+    height: 58px;
   }
 }
 

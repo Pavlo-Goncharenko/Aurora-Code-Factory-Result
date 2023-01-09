@@ -3762,6 +3762,10 @@
                 }));
             }
         }), 0);
+        const header = document.querySelector("header.header");
+        const scrollTop = window.scrollY;
+        const startPoint = 1;
+        if (scrollTop >= startPoint) !header.classList.contains("_header-scroll") ? header.classList.add("_header-scroll") : null;
         class DynamicAdapt {
             constructor(type) {
                 this.type = type;

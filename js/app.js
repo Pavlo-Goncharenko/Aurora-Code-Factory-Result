@@ -3846,6 +3846,13 @@
         }
         const da = new DynamicAdapt("max");
         da.init();
+        if (document.querySelector(".cookie")) {
+            const cards = document.querySelector(".cookie");
+            cards.addEventListener("click", (function(e) {
+                let targetElement = e.target;
+                if (targetElement.closest(".cookie__button")) cards.classList.toggle("hide-cookie");
+            }));
+        }
         window["FLS"] = false;
         isWebp();
         addLoadedClass();
